@@ -1,5 +1,6 @@
 <template>
   <div v-if="post">
+    <nuxt-link to="/posts">Back to posts</nuxt-link>
     <Post :title="post.title" :body="post.body" :id="post.id" />
   </div>
 </template>
